@@ -1,0 +1,40 @@
+@media screen  and (min-width:768px){
+
+    .header__nav-ul{
+        justify-content: space-around;    
+
+    }
+
+
+    .header__li-xs{
+        width: 100%;
+        display:flex;
+        justify-content: flex-end;
+
+    }
+
+    
+
+
+    .main__section-div{
+        display:flex;
+        justify-content: space-between;
+    
+    }
+    .main__section-div_1:nth-child(1){
+        width:305px;
+    }
+    .main__section-p:nth-child(2){
+        display: block;
+    }
+    .main__section-p_xs{
+        display:none;
+    }
+    .main__section-div_img{
+        width:360px;
+    }
+    .main__section-div_1:last-child{
+        margin-right:16px;
+    
+    }
+}
